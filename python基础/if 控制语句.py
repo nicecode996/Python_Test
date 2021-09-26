@@ -4,9 +4,6 @@
 a = 7
 if a < 6:
     print(1)
-    elif a < 4:
-    print(2);
-    if
 elif a < 10:
     print(85);
 if a > 7:

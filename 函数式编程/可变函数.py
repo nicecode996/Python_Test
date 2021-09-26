@@ -1,10 +1,12 @@
 # coding=utf-8
 # !/usr/bin/env python3
+from Crypto.Util import number
+
 
 def sum( *numbers, multiple=1):
     total = 0.0
     for numbers in numbers:
-        total += number
+        total += numbers
     return total * multiple
 
 

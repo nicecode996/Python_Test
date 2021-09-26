@@ -20,3 +20,4 @@ class Animal(object):
 
 a1 = Animal(2, 0, 10.0)
 a1.eat()
+

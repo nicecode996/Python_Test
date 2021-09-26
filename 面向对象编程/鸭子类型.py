@@ -1,6 +1,5 @@
 # !/usr/bin/env python3
 # coding:utf-8
-import go
 
 
 class Animal(object):
@@ -16,6 +15,10 @@ class Dog(Animal):
 class Car:
     def run(self):
         print('汽车跑')
+
+
+def go(animal):
+    animal.run()
 
 
 go(Animal())
